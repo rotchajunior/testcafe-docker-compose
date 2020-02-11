@@ -1,0 +1,25 @@
+{
+  "name": "testcafe-docker-compose",
+  "version": "1.0.0",
+  "description": "Exemplos de uso do TesteCafe para testes e2e",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rotchajunior/testcafe-docker-compose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rotchajunior/testcafe-docker-compose/issues"
+  },
+  "homepage": "https://github.com/rotchajunior/testcafe-docker-compose#readme",
+  "devDependencies": {
+    "testcafe": "^1.8.1"
+  }
+}

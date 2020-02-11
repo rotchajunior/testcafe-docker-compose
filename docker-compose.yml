@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  testcafe:
+    container_name: testcafe_${BROWSER}
+    build: 
+      context: .
+    environment:
+      - NODE_PATH=/opt/testcafe/node_modules:/opt
+      - SCREEN_WIDTH=1920
+      - SCREEN_HEIGHT=1080
+    volumes:
+    - ./:/home/e2e
+    - ./screenshots:/home/e2e/screenshots
+    - ./reports:/home/e2e/reports
+    command: chromium /home/e2e/tests/ --reporter html:/home/e2e/reports/report.html
