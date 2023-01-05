@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/rotchajunior/testcafe-docker-compose#readme",
   "devDependencies": {
-    "testcafe": "^1.8.1"
+    "testcafe": "^1.20.1"
   }
 }
